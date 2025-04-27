@@ -19,9 +19,7 @@ This repository contains the implementation code for our model in the mini-chall
 ### Key Assumption
 The quantile estimation step relies on an intuitive assumption:
 
-If we train a model **after removing the 2 downstream stations** from the training set,  
-the resulting nonconformity scores $s_i \sim S_1$ for these downstream stations  
-and the scores $s_i \sim S_2$ computed using the full training set as well as the 2 stations in the minichallenge, are identically distributed:  
+If we train a model **after removing the 2 downstream stations** from the training set,  the resulting nonconformity scores $s_i \sim S_1$ for these downstream stations  and the scores $s_i \sim S_2$ computed using the full training set as well as the 2 stations in the minichallenge, are identically distributed:  
 $$S_1 \overset{(d)}{=} S_2$$
 
 

@@ -1,6 +1,6 @@
 # Mini-Challenge Model Source Code
 
-This repository contains the implementation code for our model in the mini-challenge.
+This repository contains the implementation code for our model in the mini-challenge. For the other stations for test set, we only used the baseline QRF model provided in your source code as well as the default hyperparameters.
 
 ## Getting Started
 
